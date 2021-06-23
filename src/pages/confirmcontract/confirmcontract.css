@@ -1,0 +1,203 @@
+.contractbuilder{
+    width: 100%;
+    background: #2D232B;
+    
+}
+.containercontractbuilder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerInside{
+    margin-top: 20%;
+    margin-left: 10%;
+    display: grid;
+    justify-content: center;
+    background-color: blue;
+    width: fit-content;
+    height: fit-content;
+    padding: 10;
+    background: #1C191D;
+    border-radius: 15px;
+    grid-gap: 10px;
+}
+
+.titlepreviewcheck{
+    
+    padding-top: 5%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 40px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #F9F3FA;
+    text-align: left;
+}
+.checkpartscontainer{
+    display: flex;
+    background-color: "#1C191D";
+    width: 100%;
+    height: 50%;
+    padding-top: 2%;
+    
+}
+.checkparts{
+    padding-top: 1%;
+}
+
+.titlepreviewcheckcontainer{
+    background: #1C191D;
+    border-radius: 10px;
+    width: 80%;
+    height: 100%;
+    
+}
+
+.sectiontitles{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    
+    padding-top: 10%;
+    
+    color: #F9F3FA;
+}
+.previewcontainer{
+    display: flex;
+    background-color: #1C191D;
+    
+    border-radius: 15px;
+    width: 60%;
+    height: 83%;
+    padding: 10;
+    margin-top: 3%;
+    margin-left: 5%;
+    justify-content: center;
+}
+.choosebilltitle{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+
+    /* Omnihouse/Font */
+
+    color: #F9F3FA;
+}
+.confirmcontractcontainer{
+    background: #D41553;
+    border-radius: 10px;
+  
+}
+.signbutton{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #F9F3FA;
+}
+.choosebillcontainer{
+    background: #1C191D;
+    border-radius: 15px;
+    width: 30%;
+    height: 60%;
+    padding: 10;
+    margin-left: 2%;
+    margin-top: 3%;
+   
+    
+}
+::placeholder{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    padding: 20;
+
+    /* Omnihouse/Icon */
+
+    color: #F2F0F0;
+}
+.chooseboxcontainer{
+    display: flex;
+    justify-content: center;
+    padding: 20;
+}
+.choosebox{
+    margin: 1;
+    width: 90%;
+    color: snow;
+    padding: 10;
+    margin: 10;
+    background: #1B171C;
+    /* Omnihouse/10% primary */
+    text-indent: 10px;
+    border: 1px solid #93227F;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.chooseboxline{
+    margin: 10;
+    width: 90%;
+   
+    padding: 10;
+    margin: 10;
+    background: #4E444C;
+    /* Omnihouse/10% primary */
+    text-indent: 10px;
+    border: 1px solid #93227F;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.chooseboxbutton{
+    margin-left: 70%;
+    width: fit-content;
+    height: fit-content;
+    flex-direction: row;
+    padding: 10;
+}
+.chooseboxbuttontext{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10;
+    /* Font */
+
+    color: #F9F3FA;
+}
+.contractbuildertext{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+    color: #F9F3FA;
+    text-align: left;
+    padding: 20;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+}
+.contractbuilderWidgets{
+    display: flex;
+    margin: 20px;
+}

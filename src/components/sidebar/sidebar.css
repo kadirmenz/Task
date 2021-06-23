@@ -1,0 +1,106 @@
+.sidebar {
+  display: flex;
+  background-color: #161516;
+  position: sticky;
+  height: 100%;
+  width: fit-content;
+ left: 0%;
+  justify-content: center;
+  padding: 10;
+}
+.sidebarlistcontainer{
+
+  justify-content: center;
+  align-items: center;
+
+ 
+}
+.sidebarWrapper {
+  display: flex;
+  padding: 5px;
+  color: #161516;
+  justify-content: center;
+}
+
+.sidebarMenu {
+  
+  justify-content: center;
+}
+.sidebarHeader{
+  
+  align-items: center;
+  justify-items: center;
+  width:fit-content;
+  
+ 
+}
+.sidebarTitle {
+  font-size: 13px;
+  color: rgb(187, 186, 186);
+  justify-content: center;
+}
+
+.sidebarList {
+  display: block;
+  height: fit-content;
+  width: fit-content;
+  padding: 5px;
+  color: #F9F3FA;
+  justify-content: center;
+}
+
+.sidebarListItem {
+  padding: 15px;
+  cursor: pointer;
+  height: fit-content;
+  width: fit-content;
+  list-style-type: none;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: center;
+}
+.titles{
+  display: inline;
+  margin-bottom: 5;
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+/* identical to box height */
+
+  text-align: center;
+
+/* Omnihouse/Font */
+
+color: #F9F3FA;
+ 
+}
+.usericoncontainer{
+  justify-content: center;
+}
+.sidebarListItem.active{
+  border-left: 10%;
+}
+.sidebarListItem:hover {
+  background-color:grey;
+}
+.line{
+  justify-content: center;
+  padding: 10;
+  padding-top: 10;
+  margin-top: 10;
+}
+
+.sidebarHeaderIcon{
+  align-items: center;
+  justify-self: center;
+  color: #F2F0F0;
+}
+.sidebarCompanyLogo{
+  position: absolute;
+  bottom: 0;
+}
+

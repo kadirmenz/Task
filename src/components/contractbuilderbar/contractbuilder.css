@@ -1,0 +1,106 @@
+.contractbuilderbar {
+  
+  display: flex;
+  background-color: #201B20;
+  position: sticky;
+  height: 100%;
+  width: fit-content;
+  justify-content: center;
+}
+.link{
+  justify-content: center;
+  
+}
+.contractbuilderbarWrapper {
+  
+  padding: '10%';
+  width: fit-content;
+  color: #555;
+}
+.tablenames{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 33px;
+  white-space: nowrap;
+  /* identical to box height */
+  text-overflow: ellipsis;
+  
+  /* Omnihouse/Font */
+
+  color: #F9F3FA;
+}
+.contenttexts{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 25px;
+  /* identical to box height */
+
+
+  color: #FFFFFF;
+}
+.contractbuilderbarMenu {
+  width: fit-content;
+  margin-bottom: 10px;
+  padding: '10%';
+}
+
+.contractbuilderbarTitle {
+  font-size: 13px;
+  color: rgb(187, 186, 186);
+}
+
+.contractbuilderbarList {
+  list-style: none;
+  padding: 5px;
+  justify-content: center;
+  width: fit-content;
+  
+}
+.h2title{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 40px;
+  /* identical to box height */
+
+
+  color: #EB00FF;
+}
+.contractbuilderbarListItem {
+  width: fit-content;
+  padding: 5%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  color: #F9F3FA;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  
+}
+
+.contractbuilderbarListItem.active{background-color: #93227F;}
+.contractbuilderbarListItem:hover {
+  background-color: rgb(240, 240, 255);
+}
+
+.contractbuilderbarIcon{
+    margin-right: 5px;
+    font-size: 20px !important;
+    
+}
+
+.contractbuilderbarIcon.orange{
+  color: #D78F24;
+}
+.contractbuilderbarIcon.pink{
+  color: #AE3F9B;
+}
+.contractbuilderbarIcon.green{
+  color: #51B64F;
+}
